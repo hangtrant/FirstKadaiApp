@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		861EDA9E26DCB84F00B910CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EDA9D26DCB84F00B910CE /* AppDelegate.swift */; };
-		861EDAA026DCB84F00B910CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EDA9F26DCB84F00B910CE /* SceneDelegate.swift */; };
 		861EDAA226DCB84F00B910CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EDAA126DCB84F00B910CE /* ViewController.swift */; };
 		861EDAA526DCB84F00B910CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861EDAA326DCB84F00B910CE /* Main.storyboard */; };
 		861EDAA726DCB84F00B910CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861EDAA626DCB84F00B910CE /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		861EDA9A26DCB84F00B910CE /* FirstKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861EDA9D26DCB84F00B910CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		861EDA9F26DCB84F00B910CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		861EDAA126DCB84F00B910CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		861EDAA426DCB84F00B910CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		861EDAA626DCB84F00B910CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				861EDA9D26DCB84F00B910CE /* AppDelegate.swift */,
-				861EDA9F26DCB84F00B910CE /* SceneDelegate.swift */,
 				861EDAA126DCB84F00B910CE /* ViewController.swift */,
 				861EDAA326DCB84F00B910CE /* Main.storyboard */,
 				861EDAA626DCB84F00B910CE /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			files = (
 				861EDAA226DCB84F00B910CE /* ViewController.swift in Sources */,
 				861EDA9E26DCB84F00B910CE /* AppDelegate.swift in Sources */,
-				861EDAA026DCB84F00B910CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN834MMAH5;
 				INFOPLIST_FILE = FirstKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN834MMAH5;
 				INFOPLIST_FILE = FirstKadaiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
